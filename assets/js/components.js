@@ -1,4 +1,5 @@
 // Components
+console.log(siteData);
 Vue.component("Layout", {
   template: decodeURIComponent(siteData.template_parts.layout.template),
   data() {
